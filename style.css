@@ -672,3 +672,50 @@ a {
     bottom: 14px;
   }
 }
+/* JL SECUREHUB OFFICIAL BRANDING */
+
+.logo-mark {
+    min-width: 48px;
+    font-size: 23px;
+    letter-spacing: 0;
+    gap: 2px;
+}
+
+.logo-mark span {
+    color: #00d9ff;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.brand-banner {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 14px;
+    box-shadow: 0 0 35px rgba(0, 217, 255, 0.12);
+}
+
+.hero-visual {
+    width: 48%;
+    min-width: 300px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .hero-visual {
+        width: 100%;
+        min-width: 0;
+        min-height: auto;
+        margin-top: 25px;
+    }
+
+    .brand-banner {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
