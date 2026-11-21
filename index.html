@@ -1,277 +1,162 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="JL SecureHub provides cybersecurity, software development and IT solutions for businesses and individuals.">
+  <meta name="description" content="JL SecureHub provides cybersecurity guidance, website and software development, computer maintenance, IT support and network solutions in Kenya.">
+  <meta name="keywords" content="JL SecureHub, cybersecurity Kenya, website development, computer repair, IT support, network solutions, software development">
+  <meta name="author" content="JL SecureHub">
   <meta name="theme-color" content="#07111f">
   <title>JL SecureHub | Cybersecurity & Software Solutions</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./images/jl-logo.png" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+  <meta property="og:title" content="JL SecureHub | Secure Technology. Smarter Future.">
+  <meta property="og:description" content="Cybersecurity, software development and professional IT solutions in Kenya.">
+  <meta property="og:type" content="website">
 </head>
 <body>
-
-  <!-- NAVIGATION -->
-  <header class="header">
-    <a href="#home" class="logo">
-      <span class="logo-mark">J<span>L</span></span>
-      <span class="logo-name">JL <strong>SecureHub</strong></span>
-    </a>
-
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
-      ☰
-    </button>
-
-    <nav class="nav" id="nav">
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#process">Our Process</a>
-      <a href="#contact" class="nav-contact">Contact Us</a>
-    </nav>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="JL SecureHub home">
+        <img src="./images/jl-logo.png" alt="JL SecureHub logo" onerror="this.style.display='none'">
+        <span class="brand-text"><strong>JL <span>SecureHub</span></strong><small>CYBERSECURITY & SOFTWARE SOLUTIONS</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#packages">Packages</a>
+        <a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact" class="nav-cta">Get a Quote</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <!-- HERO -->
     <section class="hero" id="home">
-      <div class="hero-content">
-        <span class="eyebrow">YOUR DIGITAL SECURITY PARTNER</span>
-        <h1>Secure Technology.<br><span>Smarter Future.</span></h1>
-        <p>
-          Empowering businesses and individuals through reliable
-          cybersecurity, innovative software development and
-          professional IT solutions.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#services" class="btn btn-primary">Explore Our Services</a>
-          <a href="#contact" class="btn btn-outline">Get In Touch</a>
-        </div>
-
-        <div class="hero-note">
-          <span class="status-dot"></span>
-          Building a safer digital world
-        </div>
-      </div>
-
-      <div class="hero-visual">
-    <img
-        src="./images/jl-logo.png"
-        alt="JL SecureHub - Cybersecurity and Software Solutions"
-        class="brand-banner"
-    >
-</div>
-        <div class="floating-card card-one">⌁ Cybersecurity</div>
-        <div class="floating-card card-two">✓ Digital Protection</div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section class="section services" id="services">
-      <div class="section-heading">
-        <span class="eyebrow">WHAT WE DO</span>
-        <h2>Our <span>Services</span></h2>
-        <p>Technology solutions designed to protect, build and grow your digital presence.</p>
-      </div>
-
-      <div class="service-grid">
-        <article class="service-card">
-          <div class="service-icon">⌘</div>
-          <h3>Cybersecurity</h3>
-          <p>Security awareness, basic security assessments and guidance to help protect digital systems and information.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon">⌨</div>
-          <h3>Software Development</h3>
-          <p>Modern websites, business applications and software solutions designed around your needs.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon">▣</div>
-          <h3>IT Support & Maintenance</h3>
-          <p>Computer troubleshooting, software installation, maintenance and technical support.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon">◎</div>
-          <h3>Network Solutions</h3>
-          <p>Network setup, connectivity troubleshooting and practical networking support.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon">◈</div>
-          <h3>Digital Solutions</h3>
-          <p>Helping businesses improve their online presence through practical digital tools and solutions.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon">⌁</div>
-          <h3>Technology Consultancy</h3>
-          <p>Technology guidance to help individuals and businesses make smarter digital decisions.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section about" id="about">
-      <div class="about-visual">
-        <div class="about-box">
-          <span class="about-symbol">JL</span>
-          <span>SECUREHUB</span>
-          <p>Security • Innovation • Excellence</p>
-        </div>
-      </div>
-
-      <div class="about-content">
-        <span class="eyebrow">WHO WE ARE</span>
-        <h2>Technology with <span>Purpose.</span></h2>
-        <p>
-          JL SecureHub is a technology-focused brand committed to
-          delivering cybersecurity awareness, software development
-          and dependable IT solutions.
-        </p>
-        <p>
-          We believe technology should be secure, accessible and
-          useful. Our mission is to help people and businesses
-          navigate the digital world with confidence.
-        </p>
-        <a href="#contact" class="btn btn-primary">Work With Us</a>
-      </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="section why-us">
-      <div class="section-heading">
-        <span class="eyebrow">THE JL ADVANTAGE</span>
-        <h2>Why Choose <span>JL SecureHub?</span></h2>
-        <p>Our commitment is to make technology work better for you.</p>
-      </div>
-
-      <div class="features-grid">
-        <div class="feature">
-          <span>01</span>
-          <h3>Security Focused</h3>
-          <p>We put digital safety and responsible technology practices first.</p>
-        </div>
-        <div class="feature">
-          <span>02</span>
-          <h3>Practical Solutions</h3>
-          <p>We focus on useful solutions that address real technology challenges.</p>
-        </div>
-        <div class="feature">
-          <span>03</span>
-          <h3>Innovation Driven</h3>
-          <p>We embrace modern tools and ideas to deliver better digital experiences.</p>
-        </div>
-        <div class="feature">
-          <span>04</span>
-          <h3>Customer Focused</h3>
-          <p>We value clear communication, reliability and lasting relationships.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROCESS -->
-    <section class="section process" id="process">
-      <div class="section-heading">
-        <span class="eyebrow">HOW WE WORK</span>
-        <h2>Our <span>Process</span></h2>
-        <p>A straightforward approach from your first enquiry to delivery.</p>
-      </div>
-
-      <div class="process-grid">
-        <div class="process-item">
-          <span class="process-number">01</span>
-          <h3>Consultation</h3>
-          <p>We listen to understand your needs and goals.</p>
-        </div>
-        <div class="process-item">
-          <span class="process-number">02</span>
-          <h3>Planning</h3>
-          <p>We identify the right approach and solution.</p>
-        </div>
-        <div class="process-item">
-          <span class="process-number">03</span>
-          <h3>Development</h3>
-          <p>We work on delivering your agreed solution.</p>
-        </div>
-        <div class="process-item">
-          <span class="process-number">04</span>
-          <h3>Support</h3>
-          <p>We provide guidance and support after delivery.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section contact" id="contact">
-      <div class="contact-info">
-        <span class="eyebrow">LET'S CONNECT</span>
-        <h2>Let's Build Something <span>Secure.</span></h2>
-        <p>Have a project, a question or need technical support? Get in touch with JL SecureHub.</p>
-
-        <div class="contact-detail">
-          <span>✉</span>
-          <div>
-            <small>Email</small>
-            <a href="mailto:wasakajohn6@gmail.com">wasakajohn6@gmail.com</a>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> TECHNOLOGY YOU CAN TRUST</p>
+          <h1>Secure Technology.<br><span>Smarter Future.</span></h1>
+          <p class="hero-lead">Practical cybersecurity, reliable IT support and modern software solutions that help people and businesses work with confidence.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Request a Quote <span>→</span></a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
           </div>
+          <div class="hero-note"><span class="check">✓</span> Clear communication. Practical solutions. Ongoing support.</div>
         </div>
-
-        <div class="contact-detail">
-          <span>☎</span>
-          <div>
-            <small>Phone / WhatsApp</small>
-            <a href="https://wa.me/254701464903">+254 701 464 903</a>
+        <div class="hero-panel">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="shield-card">
+            <div class="shield-icon">⌑</div>
+            <p class="panel-kicker">JL SECUREHUB</p>
+            <h2>Protect. Build.<br>Connect.</h2>
+            <p>Technology solutions designed around your needs.</p>
+            <div class="panel-line"><span></span><span></span><span></span></div>
           </div>
-        </div>
-
-        <div class="contact-detail">
-          <span>⌖</span>
-          <div>
-            <small>Location</small>
-            <p>Kenya</p>
-          </div>
+          <div class="floating-tag tag-top"> <b>01</b> Cybersecurity</div>
+          <div class="floating-tag tag-bottom"><b>02</b> Software & IT</div>
         </div>
       </div>
+    </section>
 
-      <form class="contact-form" action="https://formspree.io/f/xoevlqrp" method="POST">
-        <h3>Send Us a Message</h3>
+    <section class="trust-strip"><div class="container trust-items"><span>CYBERSECURITY</span><i></i><span>SOFTWARE DEVELOPMENT</span><i></i><span>IT SUPPORT</span><i></i><span>NETWORK SOLUTIONS</span></div></section>
 
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT WE DO</p><h2>Technology solutions for <span>real needs.</span></h2><p>From keeping computers running smoothly to building your online presence, we help make technology work better for you.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-icon">⌘</div><h3>Computer Maintenance & Repair</h3><p>Troubleshooting, software installation, system maintenance and performance optimisation.</p><a href="#contact">Enquire about this service →</a></article>
+          <article class="service-card"><div class="service-icon">◈</div><h3>Cybersecurity Services</h3><p>Security checks, device protection guidance, vulnerability awareness and safer digital practices.</p><a href="#contact">Enquire about this service →</a></article>
+          <article class="service-card"><div class="service-icon">⌘</div><h3>Website Development</h3><p>Responsive, professional websites for small businesses, organisations and personal brands.</p><a href="#contact">Enquire about this service →</a></article>
+          <article class="service-card"><div class="service-icon">⌁</div><h3>Network Solutions</h3><p>Network setup, configuration, connectivity troubleshooting and basic network support.</p><a href="#contact">Enquire about this service →</a></article>
+          <article class="service-card"><div class="service-icon">⟨/⟩</div><h3>Software Development</h3><p>Purpose-built software solutions planned around your organisation's workflow and requirements.</p><a href="#contact">Enquire about this service →</a></article>
+          <article class="service-card service-highlight"><div class="service-icon">✦</div><h3>IT Support & Consultancy</h3><p>Friendly technical guidance to help you choose, use and maintain technology effectively.</p><a href="#contact">Talk to us →</a></article>
+        </div>
+      </div>
+    </section>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WAYS TO WORK WITH US</p><h2>Solutions that fit <span>your goals.</span></h2><p>Every project is different. Tell us what you need and we will discuss a suitable scope and quotation before work begins.</p></div>
+        <div class="package-grid">
+          <article class="package-card"><p class="package-label">FOR INDIVIDUALS</p><h3>Personal Tech Care</h3><p class="package-desc">For individuals who need dependable help with their devices.</p><ul><li>Computer troubleshooting</li><li>Software installation support</li><li>System health and maintenance</li><li>Basic device security guidance</li></ul><a class="text-link" href="#contact" data-service="Computer Maintenance & Repair">Request a quotation →</a></article>
+          <article class="package-card featured"><div class="popular-tag">BUSINESS FOCUS</div><p class="package-label">FOR SMALL BUSINESSES</p><h3>Business Digital Start</h3><p class="package-desc">Build a more professional and reliable digital foundation.</p><ul><li>Website planning and development</li><li>Business email and web guidance</li><li>Basic network and IT support</li><li>Cybersecurity awareness guidance</li></ul><a class="text-link" href="#contact" data-service="Website Development">Request a quotation →</a></article>
+          <article class="package-card"><p class="package-label">FOR ORGANISATIONS</p><h3>Technology Support</h3><p class="package-desc">Practical support for organisations with ongoing technology needs.</p><ul><li>IT and network troubleshooting</li><li>Maintenance planning</li><li>Security review and recommendations</li><li>Software solution consultation</li></ul><a class="text-link" href="#contact" data-service="IT Support & Consultancy">Request a quotation →</a></article>
+        </div>
+        <p class="pricing-note">Pricing is provided after understanding your requirements. No hidden commitments — you review the quotation before proceeding.</p>
+      </div>
+    </section>
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">OUR WORK</p><h2>What we can <span>help you build.</span></h2><p>These are illustrative demo concepts showing the type of solutions JL SecureHub can develop. They are not presented as completed client projects.</p></div>
+        <div class="portfolio-grid">
+          <article class="portfolio-card"><div class="demo-screen screen-one"><div class="mock-nav"></div><div class="mock-title"></div><div class="mock-copy"></div><div class="mock-button"></div><div class="mock-boxes"><i></i><i></i><i></i></div></div><div class="portfolio-info"><span>DEMO CONCEPT 01</span><h3>Small Business Website</h3><p>A clean online presence with service information and customer enquiries.</p></div></article>
+          <article class="portfolio-card"><div class="demo-screen screen-two"><div class="dash-top"></div><div class="dash-content"><i></i><i></i><i></i><b></b></div><div class="dash-chart"></div></div><div class="portfolio-info"><span>DEMO CONCEPT 02</span><h3>Business Management Dashboard</h3><p>A sample interface concept for organising information and business tasks.</p></div></article>
+          <article class="portfolio-card"><div class="demo-screen screen-three"><div class="security-lock">⌑</div><div class="security-bars"><i></i><i></i><i></i></div><div class="security-status">SECURITY CHECK</div></div><div class="portfolio-info"><span>DEMO CONCEPT 03</span><h3>Security Awareness Toolkit</h3><p>Educational material to encourage safer accounts, devices and online habits.</p></div></article>
+        </div>
+      </div>
+    </section>
 
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><div class="about-mark">JL<span>.</span></div><p>SECURE TECHNOLOGY<br>SMARTER FUTURE</p></div>
+        <div class="about-copy"><p class="eyebrow">ABOUT JL SECUREHUB</p><h2>Technology should empower you, <span>not hold you back.</span></h2><p>JL SecureHub is a technology-focused business providing cybersecurity guidance, software development and practical IT solutions. We aim to make useful technology services more accessible to individuals, small businesses and organisations.</p><p>We believe in understanding the problem first, communicating clearly and recommending solutions that make sense for the customer.</p><a class="btn btn-primary" href="#contact">Let's discuss your needs →</a></div>
+      </div>
+    </section>
 
-        <button type="submit" class="btn btn-primary">Send Message →</button>
+    <section class="section why-section"><div class="container"><div class="section-heading"><p class="eyebrow">WHY WORK WITH US</p><h2>A straightforward approach to <span>better technology.</span></h2></div><div class="why-grid"><div class="why-item"><b>01</b><h3>Security-minded</h3><p>We keep safety and responsible technology practices in view.</p></div><div class="why-item"><b>02</b><h3>Practical solutions</h3><p>Recommendations are based on your needs, not unnecessary complexity.</p></div><div class="why-item"><b>03</b><h3>Clear communication</h3><p>We explain the work, scope and next steps before proceeding.</p></div><div class="why-item"><b>04</b><h3>Customer focused</h3><p>We aim to build lasting relationships through reliable support.</p></div></div></div></section>
+
+    <section class="section process-section"><div class="container"><div class="section-heading"><p class="eyebrow">OUR PROCESS</p><h2>From first conversation to <span>solution.</span></h2></div><div class="process-grid"><div><span>01</span><h3>Consultation</h3><p>Tell us about the challenge or idea you have.</p></div><div><span>02</span><h3>Planning</h3><p>We clarify requirements, scope and an estimated cost.</p></div><div><span>03</span><h3>Delivery</h3><p>Work begins after you approve the proposed approach.</p></div><div><span>04</span><h3>Support</h3><p>We explain the result and discuss any follow-up support.</p></div></div></div></section>
+
+    <section class="section faq-section" id="faq"><div class="container faq-grid"><div><p class="eyebrow">QUESTIONS & ANSWERS</p><h2>Good to know <span>before we start.</span></h2><p>Need something that is not covered here? Send us a message and we'll be happy to discuss it.</p><a class="text-link" href="#contact">Ask a question →</a></div><div class="faq-list">
+      <details><summary>How do I get a price for a service?</summary><p>Use the enquiry form or contact us on WhatsApp. Share what you need and we will discuss the scope before preparing a quotation.</p></details>
+      <details><summary>Do you work with small businesses?</summary><p>Yes. Our services are intended to support individuals, small businesses and organisations, depending on the project requirements.</p></details>
+      <details><summary>Can you build a website for my business?</summary><p>Yes. Tell us about your business, the pages or features you need and any deadline you have in mind.</p></details>
+      <details><summary>Do you offer remote support?</summary><p>Some issues can be assessed or supported remotely. Other work may require an in-person visit, depending on the location and task.</p></details>
+      <details><summary>When does work begin?</summary><p>We first clarify the requirements and provide the proposed scope and quotation. Work begins after you approve the arrangement.</p></details>
+    </div></div></section>
+
+    <section class="contact-section" id="contact"><div class="container contact-grid"><div class="contact-copy"><p class="eyebrow">LET'S TALK</p><h2>Have a technology challenge? <span>Let's solve it.</span></h2><p>Tell us what you are trying to achieve. We'll get back to you to discuss the next step.</p><div class="contact-detail"><span>EMAIL</span><a href="mailto:wasakajohn6@gmail.com">wasakajohn6@gmail.com</a></div><div class="contact-detail"><span>CALL / WHATSAPP</span><a href="https://wa.me/254701464903" target="_blank" rel="noopener">+254 701 464 903</a></div><div class="contact-detail"><span>LOCATION</span><p>Kenya</p></div></div>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqpalzry" method="POST">
+        <h3>Request a Quote</h3><p>Complete the form and we'll contact you.</p>
+        <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="phone">Phone / WhatsApp (optional)</label><input id="phone" name="phone" type="tel" placeholder="+254...">
+        <label for="service">Service required</label><select id="service" name="service" required><option value="">Choose a service</option><option>Computer Maintenance & Repair</option><option>Cybersecurity Services</option><option>Website Development</option><option>Network Solutions</option><option>Software Development</option><option>IT Support & Consultancy</option><option>Not sure yet</option></select>
+        <label for="message">Tell us what you need</label><textarea id="message" name="message" rows="5" placeholder="Briefly describe your project or problem..." required></textarea>
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off">
+        <button class="btn btn-primary form-submit" type="submit">Send Enquiry <span>→</span></button>
+        <p class="form-note">By submitting, you agree that we may use your details to respond to this enquiry. See our <a href="./privacy.html">Privacy Policy</a>.</p>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
       </form>
-    </section>
+    </div></section>
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <a href="#home" class="logo footer-logo">
-      <span class="logo-mark">J<span>L</span></span>
-      <span class="logo-name">JL <strong>SecureHub</strong></span>
-    </a>
-    <p>Secure Technology. Smarter Future.</p>
-    <p class="copyright">© <span id="year">2026</span> JL SecureHub. All rights reserved.</p>
-  </footer>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="#home"><img src="./images/jl-logo.png" alt="" onerror="this.style.display='none'"><span class="brand-text"><strong>JL <span>SecureHub</span></strong><small>CYBERSECURITY & SOFTWARE SOLUTIONS</small></span></a><p>Secure Technology. Smarter Future.</p><div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="#faq">FAQs</a><a href="./privacy.html">Privacy Policy</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> JL SecureHub. All rights reserved.</span><span>Kenya · Technology solutions with purpose.</span></div></footer>
+  <a class="whatsapp-float" href="https://wa.me/254701464903?text=Hello%20JL%20SecureHub%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with JL SecureHub on WhatsApp">✆</a>
 
-  <!-- WHATSAPP BUTTON -->
-  <a href="https://wa.me/254701464903?text=Hello%20JL%20SecureHub%2C%20I%20would%20like%20to%20make%20an%20enquiry."
-     class="whatsapp" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
-    WhatsApp
-  </a>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      const open = navLinks.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', String(open));
+      menuToggle.textContent = open ? '×' : '☰';
+    });
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.textContent = '☰';
+    }));
+    document.querySelectorAll('[data-service]').forEach(link => link.addEventListener('click', () => {
+      document.getElementById('service').value = link.dataset.service;
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-  <script src="script.js"></script>
+    // Formspree handles delivery. This keeps a clear message if the browser blocks submission.
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', () => {
+      document.getElementById('formStatus').textContent = 'Sending your enquiry…';
+    });
+  </script>
 </body>
 </html>
